@@ -36,3 +36,47 @@
     transform: rotate(360deg);
   }
 }
+.parent_personList {
+  width: 100%;
+  position: relative;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+}
+.child_personList {
+  width: 50%;
+  display: block;
+  text-align: start;
+  background-color: rgb(243, 241, 241);
+  color: black;
+  padding: 10px 15px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px rgb(63, 63, 63);
+  min-height: 400px;
+}
+
+.custum_button {
+  padding: 5px 30px;
+  border-radius: 3px;
+  border: 1px solid black;
+  font-size: large;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px rgb(123, 123, 123);
+}
+.custum_button:hover {
+  background-color: rgb(1, 87, 185);
+  color: white;
+  transition: all 0.4s;
+  padding: 5px 30px;
+  border-radius: 3px;
+  border: 1px solid black;
+  font-size: large;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px rgb(123, 123, 123);
+}
+.custum_button:active {
+  background-color: black;
+  transition: all 0.5s;
+}

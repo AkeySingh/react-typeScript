@@ -4,10 +4,11 @@ import { border } from '@mui/system'
 const btnStyle = {
   backgroundColor: 'lightgrey',
   color: 'black',
-  padding: '10px 50px',
+  padding: '10px 200px',
   border: '1px solid black',
   borderRadius: '4px',
   cursor: 'pointer',
+  fontSize: '40px',
 }
 
 export const UserRef = () => {

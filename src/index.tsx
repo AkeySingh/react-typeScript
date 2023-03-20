@@ -3,8 +3,9 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 // import App from './App';
 // import AppEventProps from './AppEventProps'
-import { AppHooks } from './AppHooks'
+// import { AppHooks } from './AppHooks'
 // import { AppContext } from './AppContext'
+import AppGeneric from './AppGeneric'
 import reportWebVitals from './reportWebVitals'
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
@@ -12,8 +13,9 @@ root.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <AppEventProps /> */}
-    <AppHooks />
+    {/* <AppHooks /> */}
     {/* <AppContext /> */}
+    <AppGeneric />
   </React.StrictMode>
 )
 
